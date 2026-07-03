@@ -1,0 +1,166 @@
+# ============================================
+# Python
+# ============================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+eggs/
+sdist/
+wheels/
+*.whl
+pip-wheel-metadata/
+share/python-wheels/
+MANIFEST
+
+# ============================================
+# Jupyter Notebooks
+# ============================================
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+jupyter_execution_count_fix/
+
+# ============================================
+# Virtual Environments
+# ============================================
+venv/
+.venv/
+env/
+.env/
+ENV/
+env.bak/
+venv.bak/
+pythonenv/
+.python-version
+
+# ============================================
+# pip / uv / Poetry
+# ============================================
+Pipfile.lock
+poetry.lock
+# uv.lock  # descomentar si se usa uv lock
+
+# pip cache
+~/.cache/pip/
+
+# uv cache
+.uv/
+
+# ============================================
+# Environment & Secrets
+# ============================================
+.env
+.env.*
+!.env.example
+*.env.local
+*.env.production
+*.env.development
+
+# ============================================
+# macOS
+# ============================================
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+Icon?
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+*.swp
+*.swo
+*~
+.DocumentRevisions-V100
+.fseventsd
+.TemporaryItems
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# ============================================
+# Linux / Ubuntu
+# ============================================
+*~
+.directory
+.Trash-*
+
+# ============================================
+# IDEs & Editors
+# ============================================
+.idea/
+.vscode/
+*.swp
+*.swo
+*~
+.project
+.pydevproject
+.settings/
+*.sublime-project
+*.sublime-workspace
+.spyderproject
+.spyproject
+.rodata
+.history/
+.ionide/
+
+# Cursor
+.cursor/
+.cursorrules
+
+# Windsurf
+.windsurfrules
+
+# Copilot
+.github/copilot-instructions.md
+
+# ============================================
+# Testing & Coverage
+# ============================================
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# ============================================
+# MyPy
+# ============================================
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# ============================================
+# Data & Large Files
+# ============================================
+*.parquet
+*.feather
+*.h5
+*.hdf5
+data/raw/
+data/processed/
+
+# ============================================
+# Logs & Temp
+# ============================================
+*.log
+*.tmp
+*.temp
+tmp/
+temp/
